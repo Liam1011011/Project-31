@@ -41,7 +41,7 @@ void drawScreen() // generate TFT LCD display effects
   int q;
   // display current temperature
   tft.fillScreen(ST77XX_BLACK);   // clear screen to black
-  tft.setTextColor(ST77XX_ORANGE); // white text
+  tft.setTextColor(ST77XX_ORANGE); // orange text
   tft.setTextSize(2);
   tft.setCursor(20, 0);
   tft.println("Current:");
